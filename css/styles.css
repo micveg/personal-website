@@ -3,12 +3,12 @@
 }
 
 .header-font {
-  font-family: Open Sans Condensed;
+  font-family: "Open Sans Condensed", sans-serif;
   text-align: center;
 }
 
 .personal-website-font {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 .hr-style {
@@ -20,4 +20,18 @@
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0)
   );
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 75px;
 }
