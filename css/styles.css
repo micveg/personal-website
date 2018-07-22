@@ -35,3 +35,8 @@
   align-content: center;
   padding: 75px;
 }
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
