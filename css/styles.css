@@ -2,6 +2,10 @@
   box-shadow: 2px 6px 10px 1.6px #80808070;
 }
 
+.light-shadow-left {
+  box-shadow: -8px 6px 10px 1.6px #80808070;
+}
+
 .header-font {
   font-family: "Open Sans Condensed", sans-serif;
   text-align: center;
